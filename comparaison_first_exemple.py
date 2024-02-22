@@ -39,3 +39,5 @@
     k1_rk2 = tau * (source(x_valeurs[i] , 0.75) - c * (u_x_nouv_rk2 - urk2[i-1]) / (2 * h))
     k2_rk2 = tau * (source(x_valeurs[i] , 0.75 + (tau/2)) - c * (u_x_nouv_rk2 - urk2[i-1] - k1_rk2 / 2) / (2 * h))
     urk2[i] = urk2[i] + (k1_rk2 + k2_rk2) / 2
+ for i in range(len(x_valeurs)):
+    k1_t_rk4 = tau * (source(x_valeurs[i] , 0.75) - c * (urk4[i] - urk4[i-1]) / (2 * h))
