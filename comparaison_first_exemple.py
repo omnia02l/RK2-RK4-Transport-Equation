@@ -48,3 +48,4 @@
    k3_t_rk4 = tau * (source(x_valeurs[i] , 0.75 + (tau/2)) - c * (urk4[i] + k2_x_rk4 / 2 - urk4[i-1] - k2_t_rk4 / 2) / (2 *
  h))
    k3_x_rk4 = c * tau * (urk4[i] + k2_x_rk4 / 2)
+   k4_t_rk4 =
