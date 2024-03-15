@@ -55,3 +55,4 @@
  diff_rk4 = np.abs(urk4 - udiff)
  //Visualisation des graphes
 plt.figure(figsize=(10, 6))
+plt.plot(x_valeurs, diff_rk2)
