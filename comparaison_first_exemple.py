@@ -52,3 +52,4 @@
    k4_x_rk4 = c * tau * (urk4[i] + k3_x_rk4)
    urk4[i] = urk4[i]
  diff_rk2 = np.abs(urk2 - udiff)
+ diff_rk4 = np.abs(urk4 - udiff)
