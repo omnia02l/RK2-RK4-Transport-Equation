@@ -57,4 +57,4 @@
 plt.figure(figsize=(10, 6))
 plt.plot(x_valeurs, diff_rk2, label='Écart RK2', linestyle='dashed')
 plt.plot(x_valeurs, diff_rk4, label='Écart RK4', linestyle='dashed')
-plt
+plt.legend()
