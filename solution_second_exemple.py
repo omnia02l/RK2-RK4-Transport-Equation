@@ -6,4 +6,4 @@ h = 0.1
 tau = 0.1
 T = 2.0
 N = 2.0
-x_valeurs
+x_valeurs = np.arange()
