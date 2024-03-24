@@ -8,3 +8,5 @@ T = 2.0
 N = 2.0
 x_valeurs = np.arange(0, N, h)
 t_valeurs = np.arange(0, T, tau)
+def u0(x) :
+    return np.sin(x)
