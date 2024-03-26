@@ -10,3 +10,5 @@ x_valeurs = np.arange(0, N, h)
 t_valeurs = np.arange(0, T, tau)
 def u0(x) :
     return np.sin(x)
+def phi(t):
+ return 2*t-1
