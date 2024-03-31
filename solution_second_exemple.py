@@ -12,3 +12,5 @@ def u0(x) :
     return np.sin(x)
 def phi(t):
  return 2*t-1
+def source(x, t):
+ return np.exp(t**2)+x
