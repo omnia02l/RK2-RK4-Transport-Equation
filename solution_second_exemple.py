@@ -15,4 +15,4 @@ def phi(t):
 def source(x, t):
  return np.exp(t**2)+x
 udiff = np.zeros(len(x_valeurs))
-urk2 = np.zeros(len(x))
+urk2 = np.zeros(len(x_valeurs))
