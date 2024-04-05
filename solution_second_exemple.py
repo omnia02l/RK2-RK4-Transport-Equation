@@ -16,5 +16,5 @@ def source(x, t):
  return np.exp(t**2)+x
 udiff = np.zeros(len(x_valeurs))
 urk2 = np.zeros(len(x_valeurs))
-urk4 = np.zeros(len(x_vale))
+urk4 = np.zeros(len(x_valeu))
 for i in range():
